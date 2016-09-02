@@ -10,9 +10,9 @@ var test = require('tape')
  */
 
 test('should work', function (t) {
-  t.equal(cssVendorPrefixes.chrome, 'Webkit')
-  t.equal(cssVendorPrefixes.firefox, 'Moz')
-  t.equal(cssVendorPrefixes.msie, 'Ms')
+  t.equal(cssVendorPrefixes.chrome, 'webkit')
+  t.equal(cssVendorPrefixes.firefox, 'moz')
+  t.equal(cssVendorPrefixes.msie, 'ms')
 
   t.end()
 })
